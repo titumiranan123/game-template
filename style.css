@@ -1,0 +1,143 @@
+body {
+    padding: 5px 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo-name {
+    color: #ff00ff;
+}
+
+/* header  */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.header-content h1 {
+    color: #ff00ff;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.header-content h3 {
+    margin: 4px;
+}
+
+.header-content p {
+    margin: 4px;
+}
+
+/* // banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 720px;
+}
+
+.banner .left {
+    width: 50%;
+}
+
+.btn {
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    background-color: #ff00ff;
+    padding: 8px 20px;
+    border: none;
+
+}
+
+.button-section {
+    display: flex;
+    gap: 5px;
+
+}
+
+/* first section  */
+
+.first-section {
+    display: flex;
+    gap: 10px;
+}
+
+.first-section-image {
+    width: 50%;
+}
+
+.first-section-content {
+    text-align: right;
+}
+
+.first-section-content h3 {
+    text-align: right;
+    color: #ff00ff;
+}
+
+.first-section-content p {
+    text-align: right;
+}
+
+/* // sectio-3 */
+.section-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 h3 {
+    margin: 2px 0;
+    font-size: 25px;
+
+}
+
+.section-2 p {
+    margin: 2px 0;
+
+
+}
+
+.card {
+    width: 342px;
+    border: 2px solid #635863;
+    border-radius: 17px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card-section {
+    display: flex;
+    gap: 10px;
+}
